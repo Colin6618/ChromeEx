@@ -1,0 +1,17 @@
+{
+
+  "name": "One-click",
+  "manifest_version": 2,
+  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "haha",
+    "default_icon": "icon_19.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "One-click.png"
+  },
+  "permissions": ["http://*.google.com/", "https://*.google.com/"],
+
+}
